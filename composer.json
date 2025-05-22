@@ -16,7 +16,7 @@
             "providers": [
                 "JsTools\\JsToolsServiceProvider"
             ]
-        }
+        }s
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
