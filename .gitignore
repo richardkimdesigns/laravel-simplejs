@@ -1,0 +1,28 @@
+# Composer
+/vendor
+/composer.lock
+
+# Mac system files
+.DS_Store
+
+# PHPStorm / Nova / IDE metadata
+.idea/
+*.iml
+*.code-workspace
+
+# Node/Vite (only if you use it inside the package — usually not)
+node_modules/
+dist/
+build/
+
+# Test coverage / artifacts
+coverage/
+.phpunit.result.cache
+
+# Logs
+*.log
+
+# Cache and temporary
+/.phpunit.cache/
+.env
+.env.testing

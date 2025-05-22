@@ -1,0 +1,30 @@
+{
+    "name": "richardkimdesigns/laravel-simplejs",
+    "description": "Javascript tools for Laravel + Vite.",
+    "type": "library",
+    "require": {
+      "php": "^8.1"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JsTools\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JsTools\\JsToolsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Richard Kim",
+            "email": "hello@richardkimdesigns.com"
+        }
+    ]
+}
